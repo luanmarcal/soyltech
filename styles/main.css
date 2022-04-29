@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(
+    1deg,
+    rgb(10, 23, 202) 10%,
+    rgb(69, 159, 177) 40%,
+    rgba(5, 127, 241, 0.801) 50%,
+    rgb(107, 211, 107) 100%
+  );
+}
+
+.conteudo {
+    color: white;
+    font-family: "Sarala", sans-serif;
+}
+
+.nosso-time {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 5%;
+   font-size: 2rem;
+}
+
+.nosso-time h1{
+    font-size: 8rem;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: black;
+    max-width: 300px;
+}
+
+.card h2 {
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.card h3 {
+    color:#000000;
+    font-size: 1.2rem;
+}
+
+.card img {
+    width: 23vw;
+    min-width: 270px;
+    max-width: 280px;
+    height: 30vh;
+    border-radius: 200px;    
+}
+
