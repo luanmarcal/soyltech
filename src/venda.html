@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(107, 211, 107);
+        }
+        h1{
+            background-color: black;
+            padding: 10px;
+            color: white;
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .content{
+            width: 100vw;
+            height:auto;
+
+            display: flex;
+            justify-content: center;
+            
+        }
+        .quadro{
+            margin: 10px;
+            border-radius: 15px;
+            background-color: rgb(207, 238, 207);
+            border: solid 1px rgb(12, 36, 12);
+            width: 20vw;
+            height: 65vh;
+
+            justify-content: space-between;
+            flex-direction: column;
+            display: flex;
+            position: relative;
+        }
+        .quadro .header{
+            display: block;
+            width: 100%;
+            height: 70px;
+            padding-top: 15px;
+            background-color: rgb(175, 224, 175);
+            border-radius: 15px 15px 0 0;
+
+            text-align: center;
+        }
+        .quadro .header b{
+            font-size: 2rem;
+        }
+        .quadro .btn {
+            justify-content: flex-end;
+            display: flex;
+        }
+        .quadro ul{
+            list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="darkgreen" cx="7" cy="7" r="2"/></svg>');            
+        }
+        .quadro span {
+            bottom: 0;
+            text-align: center;
+        }
+        .quadro button{
+            margin-bottom: 0;
+            width: 100%;
+            height: 50px;
+            border: none;
+            border-radius: 0 0 15px 15px;
+
+            font-size: 1.2rem;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+        }
+        .quadro button:hover{
+            background-color: darkgrey;
+        }
+        .quadro button:active{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Vendas
+    </h1>
+    <div class="content">
+        <div class="quadro">
+            <div class="header">
+                <b>Básico</b><br>
+                <small>Versão mais simples!</small>
+            </div>
+                <ul>
+                    <li>1 a 2 estaçoẽs</li>
+                    <li>App para monitoramento</li>
+                </ul>
+        
+                <span>Instalação R$1.000,00 <br></span>
+                <div class="btn">
+                    <button>
+                        Plano R$500,00 / mês
+                    </button>
+                </div>
+        </div>
+    
+        <div class="quadro">
+            <div class="header">
+                <b>Pro</b><br>
+                <small>O mais comprado!</small>
+            </div>
+            <ul>
+                <li>3 a 4 estaçoẽs</li>
+                <li>App para monitoramento</li>
+                <li>Uso de drones para melhor posicionamento</li>
+            </ul>
+    
+            <span>Instalação R$1.000,00 <br></span>
+            <button>
+                Plano R$800,00 / mês
+            </button>
+        </div>
+    
+    
+        <div class="quadro">
+            <div class="header">
+                <b>Premium</b><br>
+                <small>Melhor custo-benefício!</small>
+            </div>
+    
+            <ul>
+                <li>5 a 8 estaçoẽs</li>
+                <li>App para monitoramento</li>
+                <li>Uso de drones para melhor posicionamento</li>
+                <li>IA para recomendar fertilizantes</li>
+            </ul>
+    
+            <span>Instalação R$1.000,00 <br></span>
+            <button>
+                Plano R$1.000,00 / mês
+            </button>
+        </div>
+    </div>
+</body>
+</html>
