@@ -39,6 +39,7 @@
             justify-content: space-between;
             flex-direction: column;
             display: flex;
+            position: relative;
         }
         .quadro .header{
             display: block;
@@ -56,6 +57,9 @@
         .quadro .btn {
             justify-content: flex-end;
             display: flex;
+        }
+        .quadro ul{
+            list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="darkgreen" cx="7" cy="7" r="2"/></svg>');            
         }
         .quadro span {
             bottom: 0;
@@ -75,6 +79,9 @@
             background-color: white;
         }
         .quadro button:hover{
+            background-color: darkgrey;
+        }
+        .quadro button:active{
             background-color: grey;
         }
     </style>
