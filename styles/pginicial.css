@@ -1,0 +1,63 @@
+body {background-color: rgb(255, 255, 255);}
+h1   {color: black;}
+
+.logo{
+    animation: go-top 4s;
+    padding-left: 40px;
+    padding-top: 2cm;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu img{
+    height: 60px;
+}
+
+.menu a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.menu02 ul {
+  display: flex;
+  gap: 30px;
+}
+
+.paisagem{
+    justify-content: space-around;
+    display: flex;
+    animation: go-back 4s;
+    position: absolute; 
+    left: 0px; /* posiciona a 90px para a esquerda */ 
+    right: 0px;
+    top: 50px; /* posiciona a 70px para baixo */
+}
+
+@keyframes go-back {
+    
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+
+@keyframes go-top {
+    
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
