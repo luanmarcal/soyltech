@@ -8,71 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/app.css">
     <style>
-        *{
-            margin:0;
-            padding:0;
-            font-family: 'Playfair Display', serif;
-        }
-        body{
-            background-color: rgb(107, 211, 107);
-        }
-        H1{
-            padding-top: 1cm;
-        }
-        h1,h3{
-            color: white;
-            font-size: 40px;
-            text-align: center;
-        }
-        img{
-            border-radius: 22px;
-        }
-        h3{
-            padding-top: 1cm;
-            font-size: 22px;
-        }
-        p{
-            color: white;
-            font-size: 18px;
-            text-align: center;
-        }
-        .cellphones{
-            padding-top: 1cm;
-        }
-        #sec2{
-            height: 1000px;
-            background-color: rgb(107, 211, 107);
-        }
-        #sec3{
-            height: 1000px;
-            background-color: rgb(107, 211, 107);
-        }
-        .botao1{
-            padding-top: 50px;
-            width: 150px;
-            height:2px;
-            background-color: white;
-            border-radius: 15px;
-        }
-        .botao2{
-            padding-top: 50px;
-            width: 150px;
-            height:2px;
-            background-color: white;
-            border-radius: 15px;
-        }
-        .botao3{
-            padding-top: 50px;
-            width: 150px;
-            height:2px;
-            background-color: white;
-            border-radius: 15px;
-        }
+        
     </style>
 </head>
 <body>
-   
+    <header class="menu">
+        <a href="/src/pginicial.html"><img src="/images/soyltech-logo.png"></a>
+        <div class="menu02">
+            <ul font>
+                <a href="/src/pginicial.html">Home</a>
+                <a href="/src/fundadores.html">Quem somos</a>
+                <a href="/src/problemaxsolucao.html">Problema</a>
+                <a href="/src/hardware.html">Hardware</a>
+                <a href="/src/app.html">Software</a>
+                <a href="/src/venda.html">Planos</a>
+            </ul>
+        </div>
+    </header>
     <section class="" id="sec1">
         <h1> APLICATIVO </h1>
         <div class="cellphones"> 
@@ -82,34 +36,21 @@
                 <img src="/images/3.png" alt="" width=auto height=500>
                 <img src="/images/4.png" alt="" width=auto height=500>
             </center>
-        </div>
+        </div class="text01">
         <h3> MAIOR FACILIDADE NO ACESSO DOS DADOS</h3>
         <p> Através de nosso aplicativo, vinculado aos sensores de nosso hardware,</p>
         <p> o usuário conta com um acompanhamento em tempo </p> 
         <p> real dos níveis dos principais nutrientes presentes no solo, melhorando</p>    
         <p> a produção em até 40%!</p>  
-        <center>
-            <!-- <div class="botao1">
-                <a href="#sec2"> Saiba Mais</a>
-            </div>
-
-        </center>  -->
-        
-    <!-- </section>
-    <section class="" id="sec2">
-        <center>
-            <div class="botao2"> 
-                <a href="#sec3"> Clique aqui para ir para a primeira página</a>
-            </div>
-        </center>
     </section>
-    <section class="" id="sec3">
-        <center>
-            <div class="botao3"> 
-                <a href="#sec1"> Clique aqui para ir para a primeira página</a>
-            </div>
-        </center>
 
-    </section> -->
+    <footer class="footer">
+        <img src="../images/soyltech-logo.png" alt="">
+        <div>
+            <h4>R. do Sol, 84 - Jardim Uniao, Cambé - PR</h4>        
+            <h4>Todos os direitos reservados ©Soyltec - 2022</h4>
+        </div>        
+    </footer>
+           
 </body>
 </html>
