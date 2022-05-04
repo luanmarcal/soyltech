@@ -11,7 +11,7 @@ body {
     height: auto;
     background: linear-gradient(
     1deg,
-    rgb(10, 23, 202) 10%,
+    rgb(2, 87, 59) 10%,
     rgb(69, 159, 177) 40%,
     rgba(5, 127, 241, 0.801) 50%,
     rgb(107, 211, 107) 100%
@@ -72,6 +72,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    margin: 150px;
 }
 
 .card {
@@ -102,5 +103,17 @@ body {
     height: 300px;
     border-radius: 100px;  
 
+}
+
+.footer {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    height: 10vh;
 }
 
