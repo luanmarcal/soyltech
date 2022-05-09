@@ -12,17 +12,47 @@
         body{
             background-color: rgb(107, 211, 107);
         }
-        h1{
+        /* h1{
             background-color: black;
             padding: 10px;
             color: white;
             font-size: 4rem;
             text-align: center;
             margin-bottom: 100px;
+        } */
+        .menu{
+            padding: 10px;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            align-items: center;
+            text-transform: uppercase;
         }
+
+        .menu img{
+            height: 45px;
+        }
+
+        .menu a{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu a:hover {
+            color: rgb(107, 211, 107);
+        }
+
+        .menu02 ul {
+            display: flex;
+            gap: 30px;
+        }        
         .content{
             width: 100vw;
             height:auto;
+            padding-top: 100px;
 
             display: flex;
             justify-content: center;
@@ -84,12 +114,24 @@
         .quadro button:active{
             background-color: grey;
         }
+        
     </style>
 </head>
 <body>
-    <h1>
-        Vendas
-    </h1>
+    <header class="menu" id="cabecalho">
+        <a href="/src/pginicial.html"><img src="/images/soyltech-logo.png"></a>
+        <div class="menu02">
+            <ul font>
+                <a href="/src/pginicial.html">Home</a>
+                <a href="/src/fundadores.html">Quem somos</a>
+                <a href="/src/problemaxsolucao.html">Problema</a>
+                <a href="/src/hardware.html">Hardware</a>
+                <a href="/src/app.html">Software</a>
+                <a href="/src/venda.html">Planos</a>
+            </ul>
+        </div>
+    </header>
+    <hr size="3" color="black" />
     <div class="content">
         <div class="quadro">
             <div class="header">
