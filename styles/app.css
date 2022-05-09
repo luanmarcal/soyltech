@@ -24,7 +24,7 @@ h3{
     font-size: 22px;
 }
 p{
-    color:white;
+    color:rgb(255, 255, 255);
     font-size: 18px;
     text-align: center;
 }
@@ -88,7 +88,6 @@ p{
 
 .menu a:hover {
     color: rgb(107, 211, 107);
-    font-size: 17px;   
 }
 
 .menu02 ul {
@@ -96,7 +95,7 @@ p{
   gap: 30px;
 }
 .footer {
-    color: black;
+    color:rgb(0, 0, 0);
     padding: 30px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -104,10 +103,15 @@ p{
     justify-content: space-around;
     align-items: center;
 }
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
 
 .footer img {
     height: 10vh;
-    color:black;
 }
 
 .text01 {
