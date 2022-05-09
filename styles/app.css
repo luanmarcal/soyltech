@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: rgb(107, 211, 107);
+}
+H1{
+    padding-top: 1cm;
+}
+h1,h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    border-radius: 22px;
+}
+h3{
+    padding-top: 1cm;
+    font-size: 22px;
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+}
+.cellphones{
+    padding-top: 1cm;
+}
+#sec1{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.botao1{
+    padding-top: 50px;
+    width: 150px;
+    height:2px;
+    background-color: white;
+    border-radius: 15px;
+}
+.botao2{
+    padding-top: 50px;
+    width: 150px;
+    height:2px;
+    background-color: white;
+    border-radius: 15px;
+}
+.botao3{
+    padding-top: 50px;
+    width: 150px;
+    height:2px;
+    background-color: white;
+    border-radius: 15px;
+}
+.logo{
+    animation: go-top 4s;
+    padding-left: 40px;
+    padding-top: 2cm;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu img{
+    height: 45px;
+}
+
+.menu a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: rgb(107, 211, 107);
+}
+
+.menu02 ul {
+  display: flex;
+  gap: 30px;
+}
+.footer {
+    color:rgb(0, 0, 0);
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.footer img {
+    height: 10vh;
+}
+
+.text01 {
+    color:white;
+}
