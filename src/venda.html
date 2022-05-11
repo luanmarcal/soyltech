@@ -6,20 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venda</title>
     <style>
+
         *{
             margin: 0;
         }
         body{
             background-color: rgb(107, 211, 107);
         }
-        /* h1{
-            background-color: black;
-            padding: 10px;
-            color: white;
-            font-size: 4rem;
-            text-align: center;
-            margin-bottom: 100px;
-        } */
+       
         .menu{
             padding: 10px;
             margin: 0;
@@ -50,9 +44,9 @@
             gap: 30px;
         }        
         .content{
-            width: 100vw;
-            height:auto;
-            padding-top: 100px;
+            height: auto;
+            padding-top: 130px;
+            padding-bottom: 130px;  
 
             display: flex;
             justify-content: center;
@@ -70,6 +64,7 @@
             flex-direction: column;
             display: flex;
             position: relative;
+    
         }
         .quadro .header{
             display: block;
@@ -114,7 +109,41 @@
         .quadro button:active{
             background-color: grey;
         }
+
+        .footer {
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            gap: 20vw;
+            justify-content: space-around;
+            align-items: center;
+        }
         
+        .footer #logo{
+            height: 7vh;
+        
+        }
+        
+        .footer #redes_sociais{
+            display: flex;
+            gap: 20px;
+        }
+        
+        .footer #redes_sociais img{
+            height:30px;
+        }
+        
+        .footer-itens{
+            display: flex;
+            align-items: center;
+            height:50px;
+            gap: 40px;
+        }
+        
+        .footer-itens img{
+            height:50px;
+        }
+
     </style>
 </head>
 <body>
@@ -124,7 +153,6 @@
             <ul font>
                 <a href="/src/pginicial.html">Home</a>
                 <a href="/src/fundadores.html">Quem somos</a>
-                <a href="/src/problemaxsolucao.html">Problema</a>
                 <a href="/src/hardware.html">Hardware</a>
                 <a href="/src/app.html">Software</a>
                 <a href="/src/venda.html">Planos</a>
@@ -188,5 +216,26 @@
             </button>
         </div>
     </div>
+
+    <hr size="3" color="black" />
+    <footer class="footer">
+
+        <div class="footer-itens">
+            <img src="../images/soyltech-logo.png" alt="">
+            <div class="text">
+                <p>R. do Sol, 84 - Jardim Uniao, Cambé - PR</p>        
+                <p>Todos os direitos reservados ©Soyltec - 2022</p>
+            </div>
+        </div>      
+
+        <div id="redes_sociais">
+            <a href=""><img src="../images/facebook.png"></a>
+            <a href=""><img src="../images/instagram.png"></a>
+            <a href=""><img src="../images/twitter.png"></a>
+            <a href=""><img src="../images/whatsapp.png"></a>
+           
+        </div>
+    </footer>
+
 </body>
 </html>

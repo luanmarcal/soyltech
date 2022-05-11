@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(255, 255, 255);
 }
@@ -6,8 +13,12 @@ h1 {
   color: black;
 }
 
+header{
+  animation: go-top 1s;
+}
+
 .banner {
-  animation: go-top 4s;
+  animation: go-back 4s;
   padding-left: 40px;
   padding-top: 2cm;
   text-align: center;
@@ -20,39 +31,46 @@ h1 {
   background-size: cover;
   /* Resize the background image to cover the entire container */
   width: 100%;
-  height: 680px;
+  height: 900px;
 }
 
-.menu {
+.menu{
   padding: 10px;
   margin: 0;
   display: flex;
   justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  text-transform: uppercase;
 }
 
-.menu img {
-  height: 60px;
+.menu img{
+  height: 45px;
 }
 
-.menu a {
+.menu a{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-decoration: none;
   color: black;
 }
 
+.menu a:hover {
+  color: rgb(107, 211, 107);
+}
+
 .menu02 ul {
-  display: flex;
-  gap: 30px;
+display: flex;
+gap: 30px;
 }
 
 
 @keyframes go-back {
-
+  
   from {
     transform: translateY(100px);
   }
-
+  
   to {
     transform: translateY(0);
   }
@@ -63,21 +81,46 @@ h1 {
   from {
     transform: translateY(-100px);
   }
-
+  
   to {
     transform: translateY(0);
   }
-}
+} 
+
+hr.animation_footer {
+  animation: go-back 4s;
+ }
 
 .footer {
-  padding: 30px;
+  padding: 15px;
   background-color: rgb(255, 255, 255);
   display: flex;
-  gap: 30vw;
+  gap: 20vw;
   justify-content: space-around;
   align-items: center;
 }
 
-.footer img {
-  height: 10vh;
+.footer #logo{
+  height: 7vh;
+
+}
+
+.footer #redes_sociais{
+  display: flex;
+  gap: 20px;
+}
+
+.footer #redes_sociais img{
+  height:30px;
+}
+
+.footer-itens{
+  display: flex;
+  align-items: center;
+  height:50px;
+  gap: 40px;
+}
+
+.footer-itens img{
+  height:50px;
 }

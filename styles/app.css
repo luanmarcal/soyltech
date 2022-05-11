@@ -96,24 +96,50 @@ p{
 }
 .footer {
     color:rgb(0, 0, 0);
-    padding: 30px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 30vw;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-    color: black;
-    text-align: left;
-}
-
-.footer img {
-    height: 10vh;
-}
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 20vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer #logo{
+    height: 7vh;
+  
+  }
+  
+  .footer #redes_sociais{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer #redes_sociais img{
+    height:30px;
+    border-radius: 0px;
+  }
+  
+  .footer-itens{
+    display: flex;
+    align-items: center;
+    height:50px;
+    gap: 40px;
+  }
+  
+  .footer-itens img{
+    height:50px;
+  }
+  .footer p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      color: black;
+      text-align: left;
+  }
 
 .text01 {
     color:white;
 }
+
+
