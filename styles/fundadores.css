@@ -17,14 +17,6 @@ body {
   );
 }
 
-.logo{
-    animation: go-top 4s;
-    padding-left: 40px;
-    padding-top: 2cm;
-    text-align: center;
-    justify-content: space-around;
-}
-
 .menu{
     padding: 10px;
     margin: 0;
@@ -117,15 +109,36 @@ body {
 }
 
 .footer {
-    padding: 30px;
+    padding: 15px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    gap: 30vw;
+    gap: 20vw;
     justify-content: space-around;
     align-items: center;
-}
-
-.footer img {
-    height: 10vh;
-}
+  }
+  
+  .footer #logo{
+    height: 7vh;
+  
+  }
+  
+  .footer #redes_sociais{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer #redes_sociais img{
+    height:30px;
+  }
+  
+  .footer-itens{
+    display: flex;
+    align-items: center;
+    height:50px;
+    gap: 40px;
+  }
+  
+  .footer-itens img{
+    height:50px;
+  }
 
