@@ -18,7 +18,7 @@ header{
 }
 
 .banner {
-  animation: go-back 4s;
+  animation: go-back 2s;
   padding-left: 40px;
   padding-top: 2cm;
   text-align: center;
@@ -88,7 +88,7 @@ gap: 30px;
 } 
 
 hr.animation_footer {
-  animation: go-back 4s;
+  animation: go-back 2s;
  }
 
 .footer {
