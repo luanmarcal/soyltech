@@ -9,12 +9,7 @@
 
 body {
     height: auto;
-    background: linear-gradient(
-    1deg,
-    rgb(69, 159, 177) 40%,
-    rgba(5, 127, 241, 0.801) 50%,
-    rgb(107, 211, 107) 100%
-  );
+    background: rgba(22, 163, 97, 0.918)
 }
 
 .menu{
