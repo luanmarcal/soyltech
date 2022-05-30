@@ -23,7 +23,7 @@ header{
   padding-top: 2cm;
   text-align: center;
   justify-content: space-around;
-  background-image: url("/images/paisagem.png");
+  background-image: url("/frontend/images/paisagem.png");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
