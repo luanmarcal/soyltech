@@ -8,7 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../styles/formulario.css">
 </head>
 <body>
+    
     <form class="formulario" method="post">
+        <div class="logo">
+            <img src="../images/soyltech-removebg-preview.png" alt="logo" width="auto" height="100px">
+        </div>
         <div class="field radiobox">
             <p>Qual plano deseja assinar?</p>
             <input type="radio" name="planos" id="basico" value="basico" ><label for="basico">Básico</label>
@@ -86,7 +90,23 @@
             <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
         </div> -->
 
-        <input type="submit" name="acao" value="Enviar">
+        
+        <!-- <input type="submit" name="acao" value="Enviar" > -->
+        <div id="botao">
+            <button onclick="location.href='../src/pginicial.html'">
+                <b>
+                    FINALIZAR COMPRA
+                </b>
+            </button>
+        </div>
+
+        <div id="botao02">
+            <button onclick="location.href='../src/venda.html'">
+                <b>
+                    CANCELAR
+                </b>
+            </button>
+        </div>
     </form>
 </body>
 </html>
