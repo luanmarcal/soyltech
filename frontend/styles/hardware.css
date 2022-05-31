@@ -2,19 +2,47 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   height: auto;
   background: #272727;
   color: #29aa6e;
-  font-size: 22px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sarala", sans-serif;
 }
 
-#cabecalho {
-  font-size: 16px;
+.menu {
+  padding: 20px;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu img {
+  height: 45px;
+}
+
+.menu a {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  color: rgb(107, 211, 107);
+}
+
+.menu02 ul {
+  display: flex;
+  gap: 30px;
 }
 
 h1 {
@@ -121,8 +149,42 @@ h1 {
   height: 50px;
   gap: 40px;
 }
-.footer-itens img {
-  height: 50px;
+
+.footer-itens img{
+  height:50px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .menu02 {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+ 
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu02 {
+    margin-top: 15px;
+    font-size: 0.6rem;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
 }
 
 /* Responsividade */

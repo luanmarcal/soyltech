@@ -1,9 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 
 * {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
+body {
+  height: auto;
+  background: #272727;
+  color: #29aa6e;
+  font-family: "Sarala", sans-serif;
+}
+
 body {
   background: #272727;
 }
@@ -34,32 +44,37 @@ p {
   margin-bottom: 80px;
 }
 
-/* Padrão */
 .menu {
-  padding: 10px;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  align-items: center;
-  text-transform: uppercase;
-}
-.menu img {
-  height: 45px;
-}
-.menu a {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-.menu a:hover {
-  color: rgb(107, 211, 107);
-}
-.menu02 ul {
-  display: flex;
-  gap: 30px;
-}
+    padding: 10px;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .menu img {
+    height: 45px;
+  }
+  
+  .menu a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu a:hover {
+    color: rgb(107, 211, 107);
+  }
+  
+  .menu02 ul {
+    display: flex;
+    gap: 30px;
+  }
+
 .footer {
   color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
@@ -71,6 +86,7 @@ p {
   justify-content: space-around;
   align-items: center;
 }
+
 .footer #logo {
   height: 7vh;
 }
@@ -98,6 +114,7 @@ p {
   text-align: left;
 }
 
+<<<<<<< HEAD
 /* Responsividade */
 @media screen and (max-width: 768px){
   .text2{
@@ -130,3 +147,37 @@ p {
     height: 30px;
   }
 }
+=======
+
+@media screen and (max-width: 700px) {
+
+  .menu02 {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+ 
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu02 {
+    margin-top: 15px;
+    font-size: 0.6rem;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+}
+>>>>>>> da9b0dbb6a40aabdae83104c178d2778744dadf7
