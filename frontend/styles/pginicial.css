@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -13,7 +12,7 @@ h1 {
   color: black;
 }
 
-header{
+header {
   animation: go-top 1s;
 }
 
@@ -34,7 +33,7 @@ header{
   height: 900px;
 }
 
-.menu{
+.menu {
   padding: 10px;
   margin: 0;
   display: flex;
@@ -44,12 +43,12 @@ header{
   text-transform: uppercase;
 }
 
-.menu img{
+.menu img {
   height: 45px;
 }
 
-.menu a{
-  font-family: 'Lato', sans-serif;
+.menu a {
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -60,36 +59,33 @@ header{
 }
 
 .menu02 ul {
-display: flex;
-gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
-
 @keyframes go-back {
-  
   from {
     transform: translateY(100px);
   }
-  
+
   to {
     transform: translateY(0);
   }
 }
 
 @keyframes go-top {
-
   from {
     transform: translateY(-100px);
   }
-  
+
   to {
     transform: translateY(0);
   }
-} 
+}
 
 hr.animation_footer {
   animation: go-back 2s;
- }
+}
 
 .footer {
   padding: 15px;
@@ -100,27 +96,26 @@ hr.animation_footer {
   align-items: center;
 }
 
-.footer #logo{
+.footer #logo {
   height: 7vh;
-
 }
 
-.footer #redes_sociais{
+.footer #redes_sociais {
   display: flex;
   gap: 20px;
 }
 
-.footer #redes_sociais img{
-  height:30px;
+.footer #redes_sociais img {
+  height: 30px;
 }
 
-.footer-itens{
+.footer-itens {
   display: flex;
   align-items: center;
-  height:50px;
+  height: 50px;
   gap: 40px;
 }
 
-.footer-itens img{
-  height:50px;
+.footer-itens img {
+  height: 50px;
 }

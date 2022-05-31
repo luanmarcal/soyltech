@@ -1,42 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    border:none;
-    outline: none;
-    box-sizing:border-box;
-    font-size:100%;
+* {
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 100%;
 }
 
-body{
-    background:rgb(255, 255, 255);
-    color: black;
+body {
+  background: rgb(255, 255, 255);
+  color: black;
 }
 
 .title {
-    display: table;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Sarala", sans-serif;
-    font-size: 8rem;
- }
-
-
- .logo figure img{
-    align-items: center;
-    position:absolute;
- }
-
-.logo figure #problemaxsolucao{
-    left: 300px;
-    top: 0cm;
-    text-align: center;
-    justify-content: space-around;
+  display: table;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Sarala", sans-serif;
+  font-size: 8rem;
 }
 
-.logo figure #background{
-    top: 1cm;
-    text-align: center;
-    justify-content: space-around;
+.logo figure img {
+  align-items: center;
+  position: absolute;
+}
+
+.logo figure #problemaxsolucao {
+  left: 300px;
+  top: 0cm;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.logo figure #background {
+  top: 1cm;
+  text-align: center;
+  justify-content: space-around;
 }

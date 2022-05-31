@@ -1,49 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   height: auto;
-  background: rgba(22, 163, 97, 0.918);
-  color: rgb(255, 255, 255);
+  background: #272727;
+  color: #29aa6e;
   font-size: 22px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#cabecalho{
-    font-size: 16px;
-}
-.menu{
-    padding: 10px;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    align-items: center;
-    text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menu img{
-    height: 45px;
-}
-
-.menu a{
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-.menu a:hover {
-    color: rgb(107, 211, 107);
-}
-
-.menu02 ul {
-  display: flex;
-  gap: 30px;
+#cabecalho {
+  font-size: 16px;
 }
 
 h1 {
@@ -54,8 +25,8 @@ h1 {
   text-align: center;
   font-size: 24px;
 }
-.problems{
-    padding-top: 30px;
+.problems {
+  padding-top: 30px;
 }
 .problems ul {
   padding-top: 20px;
@@ -66,8 +37,8 @@ h1 {
   justify-content: center;
   flex-direction: column;
 }
-.problems p{
-    padding-top: 25px;
+.problems p {
+  padding-top: 25px;
 }
 .hardware {
   display: flex;
@@ -76,7 +47,7 @@ h1 {
   justify-content: center;
 }
 
-.hardware img{
+.hardware img {
   padding: 50px;
 }
 
@@ -85,9 +56,36 @@ h1 {
   padding-bottom: 55px;
   padding-top: 25px;
 }
+
+/* Padrão */
+.menu {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  text-transform: uppercase;
+}
+.menu img {
+  height: 45px;
+}
+.menu a {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover {
+  color: rgb(107, 211, 107);
+}
+.menu02 ul {
+  display: flex;
+  gap: 30px;
+}
 .footer {
-  color:rgb(0, 0, 0);
-  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   padding: 15px;
   background-color: rgb(255, 255, 255);
@@ -96,28 +94,22 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
-
-.footer #logo{
+.footer #logo {
   height: 7vh;
-
 }
-
-.footer #redes_sociais{
+.footer #redes_sociais {
   display: flex;
   gap: 20px;
 }
-
-.footer #redes_sociais img{
-  height:30px;
+.footer #redes_sociais img {
+  height: 30px;
 }
-
-.footer-itens{
+.footer-itens {
   display: flex;
   align-items: center;
-  height:50px;
+  height: 50px;
   gap: 40px;
 }
-
-.footer-itens img{
-  height:50px;
+.footer-itens img {
+  height: 50px;
 }
