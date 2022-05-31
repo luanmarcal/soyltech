@@ -10,82 +10,98 @@
 
 <body>
   <header class="menu" id="cabecalho">
-    <a href="../src/pginicial.html"><img src="../images/soyltech-logo.png"></a>
-    <div class="menu02">
-        <ul font>
-            <a href="../src/pginicial.html">Home</a>
-            <a href="../src/fundadores.html">Nosso Time</a>
-            <a href="../src/hardware.html">Sistema</a>
-            <a href="../src/app.html">Aplicativo</a>
-            <a href="../src/venda.html">Planos</a>
+    <nav>
+        <span class="logo">
+            <a href="../src/pginicial.html"><img src="../images/soyltech-logo.png"></a>
+        </span>
+        <ul class="nav-list">
+            <li><a href="../src/pginicial.html">Home</a></li>
+            <li><a href="../src/fundadores.html">Nosso Time</a></li>
+            <li><a href="../src/hardware.html">Sistema</a></li>
+            <li><a href="../src/app.html">Aplicativo</a></li>
+            <li><a href="../src/venda.html">Planos</a></li>
         </ul>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>  
+    </nav>
+  </header>
+
+  <span class="conteudos">
+    <div class="titles">
+      <h1>Nosso Hardware</h1>
     </div>
-</header>
-
-  <h1>Nosso Hardware</h1>
-  <div class="intro">
-    <p>
-      <strong> A Soyltech é um meio de inovação para verificação de nutrientes do
-        solo. <br/>
-        Foi fundada em 2022 na cidade de Londrina, sendo uma aposta de
-        inovação que ajudará no mercado agrícola.</strong>
-    </p>
-  </div>
-
-  <div class="problems">
-    <ul>
-      <strong> Observamos alguns problemas ao criar nossa solução:</strong>
-      <li>
-        A falta de macronutrientes impacta no crescimento da planta, afetando
-        a sua produtividade.
-      </li>
-      <li>
-        Atualmente, a análise de macronutrientes é realizada antes do plantio,
-        havendo a necessidade de envio da amostra para um laboratório.
-      </li>
+    <div class="intro">
       <p>
-        Através desses problemas, nossa solução foi criar um sensor em tempo
-        real de macronutrientes que permite a correção dos mesmos durante a
-        safra.
+        <strong> A Soyltech é um meio de inovação para verificação de nutrientes do
+          solo. <br/>
+          Foi fundada em 2022 na cidade de Londrina, sendo uma aposta de
+          inovação que ajudará no mercado agrícola.</strong>
       </p>
-    </ul>
-  </div>
+    </div>
 
-  <div class="hardware">
-    <img src="..\images\HardwareSoyltech.png" alt="sensor" width="auto" height="520vh"/>
-    <div class="list-hardware">
+    <div class="problems">
       <ul>
-        <h2>Estação de medição contendo:</h2>
+        <span class="title">
+          <strong>Observamos alguns problemas ao criar nossa solução:</strong>
+        </span>
         <li>
-          <strong>Sensor NPK</strong>
-          <ul> Sensor que faz a verificação de nutrientes do solo, sendo eles:
-            <li>Nitrogênio</li>
-            <li>Fósforo</li>
-            <li>Potássio</li>
-          </ul>
+          A falta de macronutrientes impacta no crescimento da planta, afetando
+          a sua produtividade.
         </li>
-        <br/>
         <li>
-          <strong>Comunicação sem fio com a internet</strong>
-          <ul> Estabelece uma comunicação através de:
-            <li>Roteador</li>
-            <li>Repetidor</li>
-          </ul>
+          Atualmente, a análise de macronutrientes é realizada antes do plantio,
+          havendo a necessidade de envio da amostra para um laboratório.
         </li>
-        <br/>
-        <li>
-          <strong>Painel solar para carregamento da bateria</strong>
-          <ul> Pode trazer beneficios como:
-            <li>Mais durabilidade</li>
-            <li>Sem consumo de energia</li>
-          </ul>
-        </li>
+        <p>
+          Através desses problemas, nossa solução foi criar um sensor em tempo
+          real de macronutrientes que permite a correção dos mesmos durante a
+          safra.
+        </p>
       </ul>
     </div>
-  </div>
 
-  <div class="text-app">
-    <h3>MAIOR FACILIDADE NO ACESSO DE DADOS</h3>
+    <div class="hardware">
+      <div class="imghardware">
+        <img src="..\images\HardwareSoyltech.png" alt="sensor" width="auto" height="420vh"/>
+        <div class="list-hardware">
+          <ul>
+            <span class="title02">
+              <h2>Estação de medição contendo:</h2>
+            </span>
+            <li>
+              <strong>Sensor NPK</strong>
+              <ul> Sensor que faz a verificação de nutrientes do solo, sendo eles:
+                <li>Nitrogênio</li>
+                <li>Fósforo</li>
+                <li>Potássio</li>
+              </ul>
+            </li>
+            <br/>
+            <li>
+              <strong>Comunicação sem fio com a internet</strong>
+              <ul> Estabelece uma comunicação através de:
+                <li>Roteador</li>
+                <li>Repetidor</li>
+              </ul>
+            </li>
+            <br/>
+            <li>
+              <strong>Painel solar para carregamento da bateria</strong>
+              <ul> Pode trazer beneficios como:
+                <li>Mais durabilidade</li>
+                <li>Sem consumo de energia</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </span>
+  <!-- <div class="text-app">
+    <h2>MAIOR FACILIDADE NO ACESSO DE DADOS</h3>
     <p>
       Através do nosso aplicativo, vinculado aos sensores do nosso
       hardware,<br />
@@ -93,17 +109,19 @@
       macronutrientes presentes no solo,<br />
       <strong> os nutrientes em níveis adequados pode melhorar a produção em até 48%</strong>
     </p>
-  </div>
+  </div> -->
   <hr size="3" color="black" />
 
   <footer class="footer">
     <div class="footer-itens">
-        <img src="../images/soyltech-logo.png" alt="">
+        <a href="https://www.google.com.br/maps/place/Pado+Industrial+Comercial+e+Importadora/@-23.284488,-51.240704,18.75z/data=!4m5!3m4!1s0x94eb5a38b7513097:0x54d9f14dbd48e78b!8m2!3d-23.2843764!4d-51.2408942?hl=pt-BR" target="_blank">
+            <img src="../images/soyltech-logo.png" alt="">
+        </a>
         <div class="text">
-            <p>R. do Sol, 84 - Jardim Uniao, Cambé - PR</p>        
+            <p>R. do Sol, 84 - Jardim Uniao, Cambé - PR</p>
             <p>Todos os direitos reservados ©Soyltec - 2022</p>
         </div>
-    </div>      
+    </div>
 
     <div id="redes_sociais">
         <a href="https://www.facebook.com/profile.php?id=100081033498159" target="_blank"><img src="../images/facebook.png"></a>
@@ -111,6 +129,7 @@
         <a href="https://twitter.com/soyltech" target="_blank"><img src="../images/twitter.png"></a>
         <a href="https://wa.me/5543996626089" target="_blank"><img src="../images/whatsapp.png"></a>
     </div>
-  </footer>
+</footer>
+  <script src="/frontend/script/MobileNavbar.js"></script>
 </body>
 </html>
