@@ -152,6 +152,42 @@ h1 {
 
 .footer-itens img{
   height:50px;
+<<<<<<< HEAD
+=======
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .menu02 {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+ 
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu02 {
+    margin-top: 15px;
+    font-size: 0.6rem;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+>>>>>>> 904592c2e859a81fb257ee73e5cc2a20158ee6f9
 }
 
 

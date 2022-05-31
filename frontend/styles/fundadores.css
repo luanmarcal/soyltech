@@ -11,6 +11,7 @@ body {
   height: auto;
   background: #272727;
   color: #29aa6e;
+<<<<<<< HEAD
 }
 
 .menu {
@@ -49,14 +50,59 @@ body {
   font-family: "Sarala", sans-serif;
 }
 
+=======
+}
+
+.menu {
+  padding: 10px;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu img {
+  height: 45px;
+}
+
+.menu a {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  color: rgb(107, 211, 107);
+}
+
+.menu02 ul {
+  display: flex;
+  gap: 30px;
+}
+
+.conteudo {
+  color: white;
+  font-family: "Sarala", sans-serif;
+}
+
+>>>>>>> 904592c2e859a81fb257ee73e5cc2a20158ee6f9
 .nosso-time {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   text-align: center;
   margin: 5%;
   font-size: 1.5rem;
   line-height: 5rem;
+=======
+  margin: 5%;
+  font-size: 1.5rem;
+>>>>>>> 904592c2e859a81fb257ee73e5cc2a20158ee6f9
 }
 
 .nosso-time h1 {
@@ -141,6 +187,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Responsividade */
 @media screen and (max-width: 768px){
   .menu img {
@@ -168,6 +215,8 @@ body {
   }
 }
 =======
+=======
+>>>>>>> 904592c2e859a81fb257ee73e5cc2a20158ee6f9
 @media screen and (max-width: 700px) {
 
   .menu02 {
@@ -199,4 +248,7 @@ body {
   }
 
 }
+<<<<<<< HEAD
 >>>>>>> da9b0dbb6a40aabdae83104c178d2778744dadf7
+=======
+>>>>>>> 904592c2e859a81fb257ee73e5cc2a20158ee6f9
