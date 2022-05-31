@@ -119,3 +119,30 @@ hr.animation_footer {
 .footer-itens img {
   height: 50px;
 }
+
+/* Responsividade */
+@media screen and (max-width: 768px){
+  .menu img {
+    height: 30px;
+  }
+  .menu a {
+    font-size: 0.55rem;
+  }
+  .menu02 ul {
+    gap: 15px;
+  }
+
+  .footer-itens {
+    height: fit-content;
+    gap:10px;
+  }
+  .footer p{
+    font-size: 0.5rem;
+  }
+  .footer #redes_sociais img {
+    height: 20px;
+  }
+  .footer-itens img {
+    height: 30px;
+  }
+}

@@ -27,6 +27,7 @@ h1 {
 }
 .problems {
   padding-top: 30px;
+  font-size: 1.5rem;
 }
 .problems ul {
   padding-top: 20px;
@@ -37,8 +38,9 @@ h1 {
   justify-content: center;
   flex-direction: column;
 }
-.problems p {
-  padding-top: 25px;
+.problems li{
+  font-size: 1.25rem;
+  padding:15px 0 15px 0;
 }
 .hardware {
   display: flex;
@@ -55,6 +57,15 @@ h1 {
   text-align: center;
   padding-bottom: 55px;
   padding-top: 25px;
+}
+
+.text-app p{
+  font-size: 1.25rem;
+  margin: 10px;
+}
+
+.text-app p strong{
+  font-size: 1.5rem;
 }
 
 /* Padrão */
@@ -112,4 +123,51 @@ h1 {
 }
 .footer-itens img {
   height: 50px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px){
+  h1 {
+    font-size: 2.5rem;
+  }
+  .intro {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .problems p {
+    text-align: left;
+    padding-top: 15px;
+    font-size: 1.75rem;
+  }
+
+  .hardware img {
+    width: 75vw;
+    height: auto;
+    padding: 0;
+  }
+
+  .menu img {
+    height: 30px;
+  }
+  .menu a {
+    font-size: 0.55rem;
+  }
+  .menu02 ul {
+    gap: 15px;
+  }
+
+  .footer-itens {
+    height: fit-content;
+    gap:10px;
+  }
+  .footer p{
+    font-size: 0.5rem;
+  }
+  .footer #redes_sociais img {
+    height: 20px;
+  }
+  .footer-itens img {
+    height: 30px;
+  }
 }

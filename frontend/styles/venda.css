@@ -74,8 +74,8 @@ button:active {
   background-color: #1a6b45;
 }
 
-/* Padrão */
 
+/* Padrão */
 .menu {
   padding: 10px;
   margin: 0;
@@ -115,10 +115,6 @@ button:active {
   align-items: center;
 }
 
-.footer #logo {
-  height: 7vh;
-}
-
 .footer #redes_sociais {
   display: flex;
   gap: 20px;
@@ -137,4 +133,36 @@ button:active {
 
 .footer-itens img {
   height: 50px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px){
+  table {
+    width: 75vw;
+    font-size: 0.75rem;
+  }
+
+  .menu img {
+    height: 30px;
+  }
+  .menu a {
+    font-size: 0.55rem;
+  }
+  .menu02 ul {
+    gap: 15px;
+  }
+
+  .footer-itens {
+    height: fit-content;
+    gap:10px;
+  }
+  .footer p{
+    font-size: 0.5rem;
+  }
+  .footer #redes_sociais img {
+    height: 20px;
+  }
+  .footer-itens img {
+    height: 30px;
+  }
 }
