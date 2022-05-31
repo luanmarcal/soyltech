@@ -12,16 +12,23 @@
 <body>
 
     <header class="menu" id="cabecalho">
-        <a href="../src/pginicial.html"><img src="../images/soyltech-logo.png"></a>
-        <div class="menu02">
-            <ul font>
-                <a href="../src/pginicial.html">Home</a>
-                <a href="../src/fundadores.html">Nosso Time</a>
-                <a href="../src/hardware.html">Sistema</a>
-                <a href="../src/app.html">Aplicativo</a>
-                <a href="../src/venda.html">Planos</a>
+        <nav>
+            <span class="logo">
+                <a href="../src/pginicial.html"><img src="../images/soyltech-logo.png"></a>
+            </span>
+            <ul class="nav-list">
+                <li><a href="../src/pginicial.html">Home</a></li>
+                <li><a href="../src/fundadores.html">Nosso Time</a></li>
+                <li><a href="../src/hardware.html">Sistema</a></li>
+                <li><a href="../src/app.html">Aplicativo</a></li>
+                <li><a href="../src/venda.html">Planos</a></li>
             </ul>
-        </div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>  
+        </nav>
     </header>
 
     <main class="conteudo">
@@ -31,44 +38,56 @@
         </section>
         <section>
             <div class="cards">
-                <div class="card">
-                    <img src="../images/nathan.jpg" alt="Foto de perfil">
-                    <h2>nathan</h2>
-                    <h3>Desenvolvedor</h3>
+                <a href="https://github.com/nathandg" target="_blank">
+                    <div class="card">
+                        <img src="../images/nathan.jpg" alt="Foto de perfil">
+                        <h2>nathan</h2>
+                        <h3>Desenvolvedor</h3>                        
+                    </div>
+                </a>
+                    
+                <a href="https://github.com/luanmarcal" target="_blank">
+                    <div class="card">
+                            <img src="../images/luan.jpg" alt="Foto de perfil">
+                            <h2>luan</h2>
+                            <h3>Desenvolvedor</h3>
+                    </div>
+                </a>
 
-                </div>
-                <div class="card">
-                    <img src="../images/luan.jpg" alt="Foto de perfil">
-                    <h2>luan</h2>
-                    <h3>Desenvolvedor</h3>
+                <a href="https://github.com/LucaszLisboa" target="_blank">
+                    <div class="card">
+                        <img src="../images/lucas.jpg" alt="Foto de perfil">
+                        <h2>lucas</h2>
+                        <h3>Desenvolvedor</h3>
+                    </div>
+                </a>
 
-                </div>
-                <div class="card">
-                    <img src="../images/lucas.jpg" alt="Foto de perfil">
-                    <h2>lucas</h2>
-                    <h3>Desenvolvedor</h3>
+                <a href="https://github.com/clopso" target="_blank">
+                    <div class="card">
+                        <img src="../images/caio.jpg" alt="Foto de perfil">
+                        <h2>caio</h2>
+                        <h3>Desenvolvedor</h3>
+                        
+                    </div>
+                </a>
 
-                </div>
-                <div class="card">
-                    <img src="../images/caio.jpg" alt="Foto de perfil">
-                    <h2>caio</h2>
-                    <h3>Desenvolvedor</h3>
-
-                </div>
-                <div class="card">
-                    <img src="../images/carlos.jpg" alt="Foto de perfil">
-                    <h2>carlos</h2>
-                    <h3>Desenvolvedor</h3>
-                </div>
+                <a href="https://github.com/carlospagan" target="_blank">
+                    <div class="card">
+                        <img src="../images/carlos.jpg" alt="Foto de perfil">
+                        <h2>carlos</h2>
+                        <h3>Desenvolvedor</h3>
+                    </div>
+                </a>
             </div>
         </section>
     </main>
     
     <hr size="3" color="black" />
     <footer class="footer">
-
         <div class="footer-itens">
-            <img src="../images/soyltech-logo.png" alt="">
+            <a href="https://www.google.com.br/maps/place/Pado+Industrial+Comercial+e+Importadora/@-23.284488,-51.240704,18.75z/data=!4m5!3m4!1s0x94eb5a38b7513097:0x54d9f14dbd48e78b!8m2!3d-23.2843764!4d-51.2408942?hl=pt-BR" target="_blank">
+                <img src="../images/soyltech-logo.png" alt="">
+            </a>
             <div class="text">
                 <p>R. do Sol, 84 - Jardim Uniao, Cambé - PR</p>
                 <p>Todos os direitos reservados ©Soyltec - 2022</p>
@@ -76,14 +95,13 @@
         </div>
 
         <div id="redes_sociais">
-            <a href="https://www.facebook.com/profile.php?id=100081033498159" target="_blank"><img
-                    src="../images/facebook.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100081033498159" target="_blank"><img src="../images/facebook.png"></a>
             <a href="https://www.instagram.com/soyltech/" target="_blank"><img src="../images/instagram.png"></a>
             <a href="https://twitter.com/soyltech" target="_blank"><img src="../images/twitter.png"></a>
             <a href="https://wa.me/5543996626089" target="_blank"><img src="../images/whatsapp.png"></a>
-
         </div>
     </footer>
+    <script src="/frontend/script/MobileNavbar.js"></script>
 </body>
 
 </html>
