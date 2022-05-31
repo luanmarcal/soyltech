@@ -1,146 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Playfair Display', serif;
+* {
+  margin: 0;
+  font-family: "Playfair Display", serif;
 }
-body{
-    background: rgba(22, 163, 97, 0.918)
+body {
+  background: #272727;
 }
-H1{
-    padding-top: 1cm;
+h1,
+h3 {
+  color: #29aa6e;
+  font-size: 2.5rem;
+  text-align: center;
 }
-h1,h3{
-    color: white;
-    font-size: 40px;
-    text-align: center;
+h3 {
+  padding-top: 1cm;
+  font-size: 2rem;
 }
-img{
-    border-radius: 22px;
+p {
+  color: #29aa6e;
+  font-size: 1.5rem;
+  text-align: center;
 }
-h3{
-    padding-top: 1cm;
-    font-size: 25px;
+.cellphones {
+  padding-top: 1cm;
 }
-p{
-    color:rgb(255, 255, 255);
-    font-size:25px;
-    text-align: center;
+.cellphones img {
+  border-radius: 22px;
 }
-.cellphones{
-    padding-top: 1cm;
-}
-#sec1{
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 80px;
-}
-.botao1{
-    padding-top: 50px;
-    width: 150px;
-    height:2px;
-    background-color: white;
-    border-radius: 15px;
-}
-.botao2{
-    padding-top: 50px;
-    width: 150px;
-    height:2px;
-    background-color: white;
-    border-radius: 15px;
-}
-.botao3{
-    padding-top: 50px;
-    width: 150px;
-    height:2px;
-    background-color: white;
-    border-radius: 15px;
-}
-.logo{
-    animation: go-top 4s;
-    padding-left: 40px;
-    padding-top: 2cm;
-    text-align: center;
-    justify-content: space-around;
+#sec1 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
-.menu{
-    padding: 10px;
+.menu {
+    padding: 20px;
     margin: 0;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     background-color: white;
     align-items: center;
     text-transform: uppercase;
-}
-
-.menu img{
+  }
+  
+  .menu img {
     height: 45px;
-}
-
-.menu a{
+  }
+  
+  .menu a {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: black;
-}
-
-.menu a:hover {
+  }
+  
+  .menu a:hover {
     color: rgb(107, 211, 107);
-}
+  }
+  
+  .menu02 ul {
+    display: flex;
+    gap: 30px;
+  }
 
-.menu02 ul {
-  display: flex;
-  gap: 30px;
-}
 .footer {
-    color:rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    padding: 15px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 20vw;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .footer #logo{
-    height: 7vh;
-  
-  }
-  
-  .footer #redes_sociais{
-    display: flex;
-    gap: 20px;
-  }
-  
-  .footer #redes_sociais img{
-    height:30px;
-    border-radius: 0px;
-  }
-  
-  .footer-itens{
-    display: flex;
-    align-items: center;
-    height:50px;
-    gap: 40px;
-  }
-  
-  .footer-itens img{
-    height:50px;
-  }
-  .footer p{
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 16px;
-      color: black;
-      text-align: left;
-  }
-
-.text01 {
-    color:white;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer #logo {
+  height: 7vh;
+}
+.footer #redes_sociais {
+  display: flex;
+  gap: 20px;
+}
+.footer #redes_sociais img {
+  height: 30px;
+  border-radius: 0px;
+}
+.footer-itens {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 40px;
+}
+.footer-itens img {
+  height: 50px;
+}
+.footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+  text-align: left;
 }
 
 
+@media screen and (max-width: 700px) {
 
+    .menu02 {
+      font-size: 0.7rem;
+      flex-wrap: wrap;
+      gap: 1px;
+    }
+  
+    .footer-itens {
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width: 400px) {
+      
+    .menu {
+      flex-wrap: wrap;
+    }
+  
+    .menu02 {
+      margin-top: 15px;
+      font-size: 0.6rem;
+      gap: 1px;
+    }
+  
+    .footer-itens {
+      display: none;
+    }
+  
+  }

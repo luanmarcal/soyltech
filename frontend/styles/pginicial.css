@@ -34,9 +34,10 @@ header{
   height: 900px;
 }
 
-.menu{
-  padding: 10px;
+.menu {
+  padding: 20px;
   margin: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   background-color: white;
@@ -44,11 +45,11 @@ header{
   text-transform: uppercase;
 }
 
-.menu img{
+.menu img {
   height: 45px;
 }
 
-.menu a{
+.menu a {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -60,9 +61,10 @@ header{
 }
 
 .menu02 ul {
-display: flex;
-gap: 30px;
+  display: flex;
+  gap: 30px;
 }
+
 
 
 @keyframes go-back {
@@ -123,4 +125,37 @@ hr.animation_footer {
 
 .footer-itens img{
   height:50px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .menu02 {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu02 {
+    margin-top: 15px;
+    font-size: 0.6rem;
+    gap: 1px;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
 }

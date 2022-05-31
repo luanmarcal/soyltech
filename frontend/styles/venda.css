@@ -7,34 +7,35 @@ body {
 }
 
 .menu {
-   padding: 10px;
+   padding: 20px;
    margin: 0;
+   width: 100vw;
    display: flex;
    justify-content: space-around;
    background-color: white;
    align-items: center;
    text-transform: uppercase;
-}
-
-.menu img {
+ }
+ 
+ .menu img {
    height: 45px;
-}
-
-.menu a {
+ }
+ 
+ .menu a {
    font-family: 'Lato', sans-serif;
    font-weight: bold;
    text-decoration: none;
    color: black;
-}
-
-.menu a:hover {
+ }
+ 
+ .menu a:hover {
    color: rgb(107, 211, 107);
-}
-
-.menu02 ul {
+ }
+ 
+ .menu02 ul {
    display: flex;
    gap: 30px;
-}
+ }
 
 .content {
    padding-top: 175px;
@@ -137,3 +138,39 @@ button:active{
 .footer-itens img {
    height: 50px;
 }
+
+@media screen and (max-width: 700px) {
+
+   .menu02 {
+     font-size: 0.7rem;
+     flex-wrap: wrap;
+     gap: 1px;
+   }
+ 
+   .footer-itens {
+     display: none;
+   }
+ 
+ }
+ 
+ @media screen and (max-width: 400px) {
+ 
+   .nosso-time h1 {
+     font-size: 4rem;
+   }
+ 
+   .menu {
+     flex-wrap: wrap;
+   }
+ 
+   .menu02 {
+     margin-top: 15px;
+     font-size: 0.7rem;
+     gap: 1px;
+   }
+ 
+   .footer-itens {
+     display: none;
+   }
+ 
+ }
