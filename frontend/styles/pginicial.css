@@ -34,10 +34,9 @@ header{
   height: 900px;
 }
 
-.menu {
-  padding: 20px;
+.menu{
+  padding: 10px;
   margin: 0;
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   background-color: white;
@@ -45,11 +44,11 @@ header{
   text-transform: uppercase;
 }
 
-.menu img {
+.menu img{
   height: 45px;
 }
 
-.menu a {
+.menu a{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -61,10 +60,9 @@ header{
 }
 
 .menu02 ul {
-  display: flex;
-  gap: 30px;
+display: flex;
+gap: 30px;
 }
-
 
 
 @keyframes go-back {
@@ -127,7 +125,6 @@ hr.animation_footer {
   height:50px;
 }
 
-
 @media screen and (max-width: 700px) {
 
   .menu02 {
@@ -143,7 +140,7 @@ hr.animation_footer {
 }
 
 @media screen and (max-width: 400px) {
-
+ 
   .menu {
     flex-wrap: wrap;
   }
