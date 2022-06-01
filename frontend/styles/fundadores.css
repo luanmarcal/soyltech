@@ -22,12 +22,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5%;
-  font-size: 1.5rem;
+  font-size: 35px;
+  text-align: center;
 }
 
 .nosso-time h1 {
   font-size: 5rem;
+  padding: 25px;
+}
+
+.nosso-time p{
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .cards {
@@ -35,7 +41,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .card {
@@ -63,7 +70,7 @@ body {
 .card h2 {
 
   text-transform: uppercase;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 .card h3 {
@@ -76,6 +83,30 @@ body {
   height: 250px;
   border-radius: 40px;
 
+}
+
+.logo-github{
+  color: rgb(148, 148, 148);
+  font-size: 1.2rem;
+  display:flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.logo-github img{
+  width: auto;
+  height: 30px;
+}
+
+.nosso-time02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .footer a:hover{
@@ -112,76 +143,6 @@ height:50px;
 
 }
 
-@media screen and (max-width: 400px) {
- 
-  .menu {
-    flex-wrap: wrap;
-  }
-
-  .footer-itens {
-    display: none;
-  }
-
-  .banner img{
-    height: auto !important;
-    width: 200px !important;
-  }
-
-}
-
-
-@media screen and (max-width: 700px) 
-{
-  html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
-
-
-  .nosso-time h1 {
-    font-size: 3rem;
-  }
-  
-  
-  .logo{
-    display: none;
-  }
-  
-  .footer-itens {
-    display: none;
-  }
-  
-  .nav-list.active{
-    transform: translateX(0);
-  }
-  
-  .nav-list{
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background: rgb(255, 255, 255, 0.9);
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-  
-  .nav-list li{
-    margin-left: 0;
-    opacity: 0;
-  }
-  
-  .mobile-menu{
-    display:block !important;
-  }
-  
-
-}
 
 @keyframes navLinkFade {
   from{
@@ -258,4 +219,80 @@ nav {
   background:rgb(0, 0, 0);
   margin: 8px;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 400px) {
+ 
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+
+  .banner img{
+    height: auto !important;
+    width: 200px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) 
+{
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+
+  .nosso-time h1 {
+    font-size: 3rem;
+  }
+  
+  nav {
+    padding:35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .footer-itens {
+    display: none;
+  }
+  
+  .nav-list.active{
+    transform: translateX(0);
+  }
+  
+  .nav-list{
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    background: rgb(255, 255, 255, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    border-radius: 5px;
+  }
+  
+  .nav-list li{
+    margin-left: 0;
+    opacity: 0;
+  }
+  
+  .mobile-menu{
+    display:block !important;
+  }
+  
+
 }
