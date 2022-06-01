@@ -9,7 +9,7 @@ const response = [
       img: "https://www.sitiopema.com.br/wp-content/uploads/2021/09/Adubo-organico-macrofitas-12.jpg",
       preco: 100
     },
-  ]
+]
   
   let httpRequest;
   
