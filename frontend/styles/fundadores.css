@@ -135,6 +135,12 @@ height:50px;
   body {
     position: relative
   }
+
+
+  .nosso-time h1 {
+    font-size: 3rem;
+  }
+  
   
   .logo{
     display: none;
