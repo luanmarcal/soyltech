@@ -161,6 +161,12 @@ button:active {
   .colunas{
     flex-direction: column;
   }
+  
+  .field.radiobox {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
 
   .formulario {
     margin-top: 50px;
