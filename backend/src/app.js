@@ -4,7 +4,7 @@ const cors = require('cors')
 
 
 const server = express()
-const port = 4002
+const port = 4000
 
 const  pedidosRoute= require('./routes/Pedidos')
 const produtosRoute = require('./routes/Produtos')

@@ -20,8 +20,8 @@ router.post('/', (req, res) => {
 
         id: dummyCount += 1,
         Nome: request.nome,
-        LinkImg: request.LinkImg,
-        description: request.description
+        Img: request.img,
+        Preco: request.preco
 
     }
     

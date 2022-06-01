@@ -30,7 +30,7 @@ body {
   font-size: 5rem;
 }
 
-.cards {
+#render {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
