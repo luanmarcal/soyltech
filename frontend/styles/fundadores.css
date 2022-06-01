@@ -55,6 +55,9 @@ body {
 .card:hover {
   border: 2px solid rgb(0, 255, 85);
   transition: 0.2s;
+  transition: transform 0.5s;
+  transform: scale(1.05);
+  
 }
 
 .card h2 {

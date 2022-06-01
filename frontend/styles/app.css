@@ -40,6 +40,12 @@ h3 {
   
 }
 
+.cellphones img:hover {
+  transition: 0.2s;
+  transition: transform 0.5s;
+  transform: scale(1.05);
+  
+}
 
 #sec1 {
   width: 100%;
