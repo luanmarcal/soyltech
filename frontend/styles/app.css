@@ -57,25 +57,6 @@ h3 {
   margin-top: 100px;
 }
 
-button {
-  font-size: 1.5rem;
-
-  text-align: center;
-  width: auto;
-  padding: 20px;
-
-  border-radius: 20px;
-  border: 1px solid #272727;
-  background-color: #29aa6e;
-}
-button:hover {
-  background-color: #23915e;
-}
-button:active {
-  background-color: #1a6b45;
-}
-
-
 /* @media screen and (max-width: 700px) {
 
   .menu02 {
