@@ -5,108 +5,79 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-
 }
 
 body {
   height: auto;
   background: #272727;
 
-  color:rgb(0, 0, 0)
 }
 
-body {
-  background: #272727;
-}
-h1,
-h3 {
-  color: #ffffff;
-  font-size: 2.5rem;
-  text-align: center;
+.conteudo {
+  color: white;
   font-family: "Sarala", sans-serif;
 }
-h3 {
-  padding-top: 1cm;
-  font-size: 2rem;
-}
-.text2 p {
-  color: #ffffff;
+
+.nosso-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
   font-size: 1.5rem;
-  text-align: center;
-  font-family: "Sarala", sans-serif;
-}
-.cellphones {
-  padding-top: 1cm;
-  
 }
 
-.cellphones img:hover {
+.nosso-time h1 {
+  font-size: 5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1;
+  margin-bottom: 150px;
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #12121257;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  max-width: 300px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 30px 2px  black;
+  margin: 20px;
+
+}
+
+.card:hover {
+  border: 2px solid rgb(0, 255, 85);
   transition: 0.2s;
   transition: transform 0.5s;
   transform: scale(1.05);
   
 }
 
-#sec1 {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 80px;
+.card h2 {
+
+  text-transform: uppercase;
+  padding: 15px;
 }
 
-#img03{
-  margin-top: 100px;
+.card h3 {
+  font-size: 1.2rem;
 }
 
-button {
-  font-size: 1.5rem;
+.card img {
 
-  text-align: center;
-  width: auto;
-  padding: 20px;
-
-  border-radius: 20px;
-  border: 1px solid #272727;
-  background-color: #29aa6e;
-}
-button:hover {
-  background-color: #23915e;
-}
-button:active {
-  background-color: #1a6b45;
-}
-
-
-/* @media screen and (max-width: 700px) {
-
-  .menu02 {
-    font-size: 0.7rem;
-    flex-wrap: wrap;
-    gap: 1px;
-  }
-
-  .footer-itens {
-    display: none;
-  }
+  width: 200px;
+  height: 250px;
+  border-radius: 40px;
 
 }
-
-@media screen and (max-width: 400px) {
- 
-  .menu {
-    flex-wrap: wrap;
-  }
-
-  .menu02 {
-    margin-top: 15px;
-    font-size: 0.6rem;
-    gap: 1px;
-  }
-
-  .footer-itens {
-    display: none;
-  }
-
-} */
 
 .footer a:hover{
   opacity: 0.7;
@@ -142,6 +113,24 @@ height:50px;
 
 }
 
+button {
+    font-size: 1.5rem;
+  
+    text-align: center;
+    width: auto;
+    padding: 20px;
+  
+    border-radius: 20px;
+    border: 1px solid #272727;
+    background-color: #29aa6e;
+  }
+  button:hover {
+    background-color: #23915e;
+  }
+  button:active {
+    background-color: #1a6b45;
+  }
+
 @media screen and (max-width: 400px) {
  
   .menu {
@@ -168,6 +157,12 @@ height:50px;
   body {
     position: relative
   }
+
+
+  .nosso-time h1 {
+    font-size: 3rem;
+  }
+  
   
   .logo{
     display: none;
@@ -283,4 +278,3 @@ nav {
   margin: 8px;
   transition: 0.3s;
 }
-
