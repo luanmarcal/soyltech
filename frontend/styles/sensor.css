@@ -10,69 +10,21 @@
 body {
   height: auto;
   background: #272727;
-}
-
-.conteudos{
-  color: #ffffff;
-  font-family: "Sarala", sans-serif;
-}
-
-.title{
-  font-size: 30px;
-  text-align: center;
-
-}
-
-.title02{
-  font-size: 22px;
-}
-
-
-h1 {
-  text-align: center;
-  font-size: 80px;
-  padding: 25px;
-}
-.intro {
-  text-align: center;
-  font-size: 35px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-.problems {
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
-  line-height: 42px;
-}
-
-.problems ul {
-  background-image: url("../images/plantas7.png");
+  background-image: url("../images/jardim.png");
   background-position: center;
   background-size: cover;
- 
-  width: 100%;
-  height: 100vh;
-  padding-top: 20px;
-  padding-left: 200px;
-  padding-right: 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  gap: 50px;
 }
 
-.list-hardware{
-  color:rgb(107, 211, 107);
-}
 .hardware {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 150px;
+  margin-bottom: 190px;
+}
+
+.imghardware{
+  display: flex;
+  align-items: center;
 }
 
 .hardware img {
@@ -89,40 +41,21 @@ h1 {
   transform: scale(1.05);
   
 }
-.botaos{
-  display: flex;
-  justify-content: center;
-  gap: 150px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+
+.title02{
+  font-size: 22px;
 }
 
-.botao{
-  display: flex;
-  align-items: center;
-}
-button {
-  font-size: 20px;
-  box-shadow: 0px 0px 20px 10px  rgb(27, 27, 27);
-  text-align: center;
-  width: auto;
-  padding: 40px;
-
-  border-radius: 50px;
-  border: 1px solid #ffffff;
-  background-color: #aaeb32da;
-}
-button:hover {
-  background-color: #89bb2cda;
-  border: 2px solid rgb(0, 0, 0);
-  transition: 0.2s;
-  transition: transform 0.2s;
-  transform: scale(1.05);
-}
-button:active {
-  background-color: #6d9623da;
+.conteudos{
+  color: #ffffff;
+  font-family: "Sarala", sans-serif;
+  
 }
 
+.list-hardware{
+  color:rgb(255, 255, 255);
+  font-size: 22px;
+}
 
 .footer a:hover{
   opacity: 0.7;
@@ -135,6 +68,7 @@ display: flex;
 gap: 20vw;
 justify-content: space-around;
 align-items: center;
+
 }
 
 .footer #redes_sociais{
@@ -283,7 +217,6 @@ nav {
     font-size: 60px
   }
   
-  
   nav {
     padding:35px;
     display: flex;
@@ -327,4 +260,3 @@ nav {
   
 
 }
-
