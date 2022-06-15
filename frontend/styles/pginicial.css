@@ -172,6 +172,18 @@ nav {
   transition: 0.3s;
 }
 
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+  .banner img{
+    height: auto !important;
+    width: 200px !important;
+  }
+
+  .footer-itens {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 400px) {
  
   .menu {

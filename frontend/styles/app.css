@@ -5,19 +5,43 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-
 }
 
 body {
   height: auto;
   background: #272727;
-
-  color:rgb(0, 0, 0)
 }
 
-body {
-  background: #272727;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
 }
+.title p{
+  justify-content: center;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Sarala", sans-serif;
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-size: 5rem;
+  padding: 0px;
+}
+
+.text2 {
+  justify-content: center;
+  font-size: 35px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Sarala", sans-serif;
+  margin-bottom: 30px;
+}
+
 h1,
 h3 {
   color: #ffffff;
@@ -29,12 +53,7 @@ h3 {
   padding-top: 1cm;
   font-size: 2rem;
 }
-.text2 p {
-  color: #ffffff;
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "Sarala", sans-serif;
-}
+
 .cellphones {
   padding-top: 1cm;
   
@@ -57,37 +76,6 @@ h3 {
   margin-top: 100px;
 }
 
-/* @media screen and (max-width: 700px) {
-
-  .menu02 {
-    font-size: 0.7rem;
-    flex-wrap: wrap;
-    gap: 1px;
-  }
-
-  .footer-itens {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
- 
-  .menu {
-    flex-wrap: wrap;
-  }
-
-  .menu02 {
-    margin-top: 15px;
-    font-size: 0.6rem;
-    gap: 1px;
-  }
-
-  .footer-itens {
-    display: none;
-  }
-
-} */
 
 .footer a:hover{
   opacity: 0.7;
@@ -229,9 +217,12 @@ nav {
     position: relative
   }
 
+  .title h1{
+    font-size: 4rem;
+  }
 
-  .nosso-time h1 {
-    font-size: 3rem;
+  .text2{
+    font-size: 25px;
   }
   
   nav {
@@ -276,4 +267,11 @@ nav {
   }
   
 
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+  .footer-itens {
+    display: none;
+  }
 }

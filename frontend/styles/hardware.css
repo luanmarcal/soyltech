@@ -10,6 +10,9 @@
 body {
   height: auto;
   background: #272727;
+  background-image: url("../images/jardim.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .conteudos{
@@ -28,68 +31,27 @@ body {
 }
 
 
-h1 {
+.titles h1 {
   text-align: center;
   font-size: 80px;
   padding: 25px;
 }
+
+
 .intro {
   text-align: center;
   font-size: 35px;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
 .problems {
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
-  line-height: 42px;
-}
-
-.problems ul {
-  background-image: url("../images/plantas7.png");
-  background-position: center;
-  background-size: cover;
- 
-  width: 100%;
-  height: 100vh;
-  padding-top: 20px;
-  padding-left: 200px;
-  padding-right: 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  font-size: 30px;
   text-align: center;
-  gap: 50px;
-}
-
-.list-hardware{
-  color:rgb(107, 211, 107);
-}
-.hardware {
-  display: flex;
-  justify-content: center;
   margin-top: 50px;
-  margin-bottom: 80px;
 }
 
-.hardware img {
-  margin-right: 50px;
-  border: 2px solid rgb(107, 211, 107);
-  box-shadow: 0px 0px 30px 2px  black;
-  border-radius: 22px;
-}
 
-.hardware img:hover {
-  border: 2px solid rgb(68, 128, 68);
-  transition: 0.2s;
-  transition: transform 0.5s;
-  transform: scale(1.05);
-  
-}
 .botaos{
+
   display: flex;
   justify-content: center;
   gap: 150px;
@@ -235,16 +197,21 @@ nav {
   transition: 0.3s;
 }
 
-.imghardware{
-  display: flex;
-  flex-direction: row;
-}
 
 @media screen and (max-width: 400px) {
  
   .menu {
     flex-wrap: wrap;
   }
+
+  .intro {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 
   .footer-itens {
     display: none;
@@ -267,23 +234,17 @@ nav {
     position: relative
   }
 
-  .imghardware{
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 45px;
-  
-  }
-  
-  .imghardware img{
-    width:auto !important; 
-    height:200px !important;
-  }
-  
-  .titles h1{
-    font-size: 60px
-  }
-  
-  
+ .botaos{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  gap: 50px;
+  align-items: center;
+  margin-top: 80px;
+ }
+
+
+
   nav {
     padding:35px;
     display: flex;
@@ -295,6 +256,15 @@ nav {
   
   .footer-itens {
     display: none;
+  }
+
+  .footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 20px;
   }
   
   .nav-list.active{
@@ -325,6 +295,11 @@ nav {
     display:block !important;
   }
   
-
 }
 
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+  .footer-itens {
+    display: none;
+  }
+}

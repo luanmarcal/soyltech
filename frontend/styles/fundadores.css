@@ -31,7 +31,7 @@ body {
   padding: 25px;
 }
 
-.nosso-time p{
+.nosso-time p {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -55,7 +55,7 @@ body {
   color: rgb(255, 255, 255);
   max-width: 300px;
   border: 2px solid white;
-  box-shadow: 0px 0px 30px 2px  black;
+  box-shadow: 0px 0px 30px 2px black;
 
 }
 
@@ -64,7 +64,7 @@ body {
   transition: 0.2s;
   transition: transform 0.5s;
   transform: scale(1.05);
-  
+
 }
 
 .card h2 {
@@ -85,15 +85,15 @@ body {
 
 }
 
-.logo-github{
+.logo-github {
   color: rgb(148, 148, 148);
   font-size: 1.2rem;
-  display:flex;
+  display: flex;
   flex-direction: row;
   gap: 5px;
 }
 
-.logo-github img{
+.logo-github img {
   width: auto;
   height: 30px;
 }
@@ -105,56 +105,55 @@ body {
   font-size: 35px;
   text-align: center;
   margin-bottom: 80px;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
-.footer a:hover{
+.footer a:hover {
   opacity: 0.7;
 }
 
 .footer {
-padding: 15px;
-background-color: rgb(255, 255, 255);
-display: flex;
-gap: 20vw;
-justify-content: space-around;
-align-items: center;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20vw;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.footer #redes_sociais{
-display: flex;
-gap: 20px;
+.footer #redes_sociais {
+  display: flex;
+  gap: 20px;
 }
 
-.footer #redes_sociais img{
-height:30px;
+.footer #redes_sociais img {
+  height: 30px;
 }
 
-.footer-itens{
-display: flex;
-align-items: center;
-height:50px;
-gap: 40px;
+.footer-itens {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 40px;
 }
 
-.footer-itens img{
-height:50px;
+.footer-itens img {
+  height: 50px;
 
 }
 
 
 @keyframes navLinkFade {
-  from{
+  from {
     opacity: 0;
     transform: translateX(50px);
-    
+
   }
-  to{
+
+  to {
     opacity: 1;
     transform: translateX(0px);
   }
-  
+
 }
 
 .mobile-menu.active .line1 {
@@ -170,7 +169,7 @@ height:50px;
 }
 
 nav {
-  padding:35px;
+  padding: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -178,21 +177,21 @@ nav {
   background-color: white;
 }
 
-.nav-list{
+.nav-list {
   list-style: none;
   display: flex;
 }
 
-.nav-list li{
+.nav-list li {
   margin-left: 32px;
 }
 
-.menu img{
+.menu img {
   height: 45px;
 }
 
 
-.menu a{
+.menu a {
   transition: 0.3s;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -201,28 +200,28 @@ nav {
   color: black;
 }
 
-.menu a:hover{
+.menu a:hover {
   color: rgb(107, 211, 107);
   opacity: 0.7;
 }
 
 
-.mobile-menu{
+.mobile-menu {
   cursor: pointer;
   display: none;
 }
 
 
-.mobile-menu div{
+.mobile-menu div {
   width: 32px;
   height: 2px;
-  background:rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
   margin: 8px;
   transition: 0.3s;
 }
 
 @media screen and (max-width: 400px) {
- 
+
   .menu {
     flex-wrap: wrap;
   }
@@ -231,7 +230,7 @@ nav {
     display: none;
   }
 
-  .banner img{
+  .banner img {
     height: auto !important;
     width: 200px !important;
   }
@@ -239,38 +238,39 @@ nav {
 }
 
 
-@media screen and (max-width: 700px) 
-{
-  html, body {
+@media screen and (max-width: 700px) {
+
+  html,
+  body {
     overflow-x: hidden;
   }
+
   body {
     position: relative
   }
 
-
   .nosso-time h1 {
     font-size: 3rem;
   }
-  
+
   nav {
-    padding:35px;
+    padding: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     background-color: rgb(255, 255, 255);
   }
-  
+
   .footer-itens {
     display: none;
   }
-  
-  .nav-list.active{
+
+  .nav-list.active {
     transform: translateX(0);
   }
-  
-  .nav-list{
+
+  .nav-list {
     position: absolute;
     top: 8vh;
     right: 0;
@@ -284,15 +284,22 @@ nav {
     transition: transform 0.3s ease-in;
     border-radius: 5px;
   }
-  
-  .nav-list li{
+
+  .nav-list li {
     margin-left: 0;
     opacity: 0;
   }
-  
-  .mobile-menu{
-    display:block !important;
-  }
-  
 
+  .mobile-menu {
+    display: block !important;
+  }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+  .footer-itens {
+    display: none;
+  }
 }
