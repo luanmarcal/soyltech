@@ -1,36 +1,40 @@
 const express = require("express");
 const router = express.Router()
-
+const ProdutosDB = require('../models/produtos')
 
 let dummyCount = 0;
 let Produtos = []
 
-//salvar pedido
+//Ver Produtos
 router.get('/', (req, res) => {
-    res.status(200).send(Produtos);
+    ProdutosDB.find().then(produtos => {
+        res.status(200).send(produtos);
+    }).catch(err => {
+        res.status(500).send(err)
+    })
 })
 
-//requisição adicionar dados de Pedido
+//Adicionar Novo Produto
 router.post('/', (req, res) => {
-    
+
     const request = req.body;
 
-    //created obj
-    const produtoObj = {
-
-        id: dummyCount += 1,
+    const produto = new ProdutosDB({
         Nome: request.nome,
-        LinkImg: request.LinkImg,
-        description: request.description
+        Img: request.img,
+        Preco: request.preco
+    })
 
-    }
-    
-    Produtos.push(produtoObj);
-    res.status(201).send();
+    produto.save().then(() => {
+        res.status(200).send()
+    });
 })
 
-router.get('/', (req, res) => {
-    res.send(Produtos);
+//deletar moisture
+router.delete('/perigo', (req, res) => {
+    ProdutosDB.deleteMany().then(result => {
+        res.status(200).send()
+    });
 })
 
 
