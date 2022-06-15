@@ -1,5 +1,5 @@
 
-const url = "http://localhost:4000/produtos";
+const url = "https://soyltech.herokuapp.com/produtos";
 let response = []
 
 function getUsers() {
